@@ -1,0 +1,14 @@
+# Secrets — never commit real environment values
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local database
+app.db
+
+# Bandit/Semgrep local output
+bandit-report.json
